@@ -1,0 +1,9 @@
+<?php
+$ID = $_GET['ID'];
+require_once ('../connect.php');
+$sql = "delete from account_guest where ID = '$ID'";
+
+mysqli_query($connect, $sql);
+mysqli_close($connect);
+header("location:../../admin/quan_ly_khach_hang/");
+?>

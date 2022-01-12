@@ -1,0 +1,430 @@
+html {
+    display: block;
+    height: 100%;
+}
+
+head {
+    display: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: rgb(250, 250, 250);
+    color: #252525;
+    height: 100%;
+}
+
+a {
+    color: none;
+    text-decoration: none;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+i {
+    color: #808080;
+}
+
+.logo i {
+    color: #000000;
+}
+
+.navbar {
+    border-bottom: 0.1px solid #e0e0e0;
+    background-color: #ffffff;
+}
+
+.mainpage {
+    margin-top: 120px;
+}
+
+input {
+    display: inline-block;
+    text-align: start;
+    cursor: text;
+    height: 20px;
+}
+
+.logo img {
+    height: 30px;
+    width: auto;
+}
+
+.vl {
+    border-left: 1px solid #808080;
+    height: 30px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.instagram-brand {
+    display: inline;
+}
+
+.list-inline-item {
+    margin-left: auto;
+}
+
+.input-icons input {
+    padding-left: 140px;
+    box-sizing: border-box;
+    background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_search_48px-128.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 110px center;
+    height: 30px;
+}
+
+.input-icons input:focus {
+    background-color: #cfcfcf;
+    padding-left: 140px;
+    background-position: 20px;
+}
+
+.card {
+    margin-bottom: 60px;
+}
+
+.card-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.profile {
+    cursor: pointer;
+}
+
+.profile-photo {
+    width: 32px;
+    height: 32px;
+    border-width: 2px;
+}
+
+.profile-photo img {
+    width: 100%;
+    left: 0;
+}
+
+span.id-name {
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+
+/* .icons i {
+    font-size: 25px;
+    padding-left: 0;
+    padding-right: 0;
+} */
+
+.icons li {
+    margin-right: 2rem;
+}
+
+@media (min-width: 768px) {
+    #sidebar {
+        position: fixed;
+        /* /* float: right; */
+        right: 18%;
+        width: 18%;
+    }
+}
+
+.row {
+    position: relative;
+}
+
+
+/* buttons */
+
+button {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.left-buttons li {
+    margin-left: -3px;
+}
+
+.post-buttons {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+}
+
+.post-buttons ul {
+    margin-bottom: 0;
+    margin-block-end: 0;
+}
+
+.post-buttons i,
+.comments i {
+    color: #252525;
+    font-size: 24px;
+}
+
+.post-buttons img {
+    width: 24px;
+    height: 24px;
+    filter: invert(11%) sepia(0%) saturate(4724%) hue-rotate(135deg) brightness(91%) contrast(88%);
+}
+
+.subs {
+    border: 0;
+    padding: 0;
+    background-color: none;
+    border-color: none;
+}
+
+.card-header {
+    background-color: #ffffff;
+}
+
+.btn-likes span {
+    font-weight: 600;
+    color: #262626;
+}
+
+
+/* subtitles */
+
+.subtitles {
+    padding-left: 22px;
+    padding-right: 3rem;
+    padding-bottom: .375rem;
+}
+
+.post-buttons .btn {
+    padding-left: .375rem;
+    padding-right: .375rem;
+}
+
+.subs strong,
+.subs p {
+    display: inline;
+}
+
+a.id-name {
+    text-emphasis: blue;
+
+}
+.subs {
+    padding-top: .1rem;
+    padding-bottom: .4rem;
+}
+
+#post-date {
+    color: #808080;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+/* comments */
+
+.comments {
+    position: relative;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-bottom: 1rem;
+}
+
+.post-comment-btn {
+    position: absolute;
+    float: right;
+    right: 0.75rem;
+    top: 0.375rem;
+}
+
+.post-comment-btn i {
+    color: #808080;
+    font-size: 15px;
+}
+
+.post-comments {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 0;
+    padding-left: .2rem;
+    font-size: 15px;
+}
+
+.card#suggestions {
+    margin-bottom: 60px;
+}
+
+#see-all-btn {
+    border: 0;
+    font-weight: 600;
+}
+
+#suggest-header {
+    color: #808080;
+}
+
+#suggestions .card {
+    margin-top: 0;
+}
+
+.suggestion-photo {
+    width: 50px;
+    height: 50px;
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.suggestion-photo img {
+    width: 100%;
+    left: 0;
+}
+
+#suggestions p {
+    margin-bottom: 25px;
+    color: #808080;
+}
+
+#suggestion-cards .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.suggestion-follow-btn {
+    width: 135px;
+    height: 28px;
+    background-color: #0095f6;
+    border-color: #0095f6;
+    font-size: .9rem;
+    padding: 0;
+    font-weight: 500;
+}
+
+.profile-info,
+.story-info {
+    margin-left: 1rem;
+}
+
+.profile-username {
+    font-weight: 600;
+    color: #252525;
+    display: block;
+    font-size: 14px;
+}
+
+.profile-id {
+    font-size: 14px;
+}
+
+.story-profile-photo {
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.story-profile-photo img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.hl {
+    border-bottom: 1px solid #808080;
+    width: 300px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.story-info-header {
+    padding-top: 0;
+    padding-bottom: 15px;
+    padding-left: 0;
+    background-color: rgb(250, 250, 250);
+}
+
+.story-info-card {
+    border: 0;
+    margin-bottom: 0;
+}
+
+.stories {
+    margin-top: 1rem;
+}
+
+.stories strong {
+    color: #808080;
+}
+
+.stories {
+    overflow: scroll;
+    height: 330px;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.story {
+    margin-bottom: 1rem;
+}
+
+.story-time {
+    color: #808080;
+    font-weight: 350;
+    font-size: 12px;
+}
+
+.story-profile-photo {
+    border: 2px solid #dc3545 !important;
+}
+
+.footer {
+    color: #bebdbd;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.footer-nav {
+    margin-bottom: 16px;
+}
+
+.footer-list {
+    margin-bottom: 15px;
+    list-style: none;
+    margin-top: 25px;
+
+}
+
+.footer-list li {
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-transform: none;
+    margin-left: 5px;
+    display: inline-block;
+    word-spacing: 2px;
+
+}
+
+.footer-list a {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    
+
+}
+
+.credit {
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+}
